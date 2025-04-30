@@ -1,0 +1,22 @@
+abstract class Sample{
+	abstract void disp();
+	abstract void cool();
+	abstract void coola();
+}
+
+class Tester extends Sample{
+	void disp(){
+		System.out.println("Sql is Most important Subject to me right now!!!");
+	}
+	void cool(){
+		System.out.println("So I need to study the subject atleast 1hr per day to excell it.");
+	}
+}
+class Main{
+	public static void main(String[] args){
+			Tester s = new Tester();
+			s.disp();
+			s.cool();
+	}
+	
+}
