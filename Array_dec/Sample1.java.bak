@@ -1,0 +1,60 @@
+class Sample1{
+	public static void main(String[] args){
+		
+		int [] arr = {10,20,46};
+		
+		short [] arr1 ={10,20,46} ;
+		
+
+		
+		byte [] arr2 = {10,20,46};
+		
+
+		
+		long [] arr3 = {1022,2540,486};
+
+		float [] arr4 = {1002.20f,20.2f,46.55f};
+	
+		
+		double[] arr5; = {1002.20,20.2,46.55};
+
+		
+		char [] arr6 = {'s','d','m'};
+		
+		boolean [] arr7 = {true,false,false};
+		
+		
+		System.out.println("Integer datatype of data  given below\n");
+		for(int i =0; i<arr.length; i++){
+		System.out.println(arr[i]);
+		}
+		System.out.println("short datatype of data  given below\n");
+		for(int i =0;i<arr1.length;i++){
+			System.out.println(arr1[i]);
+		}
+		System.out.println("byte datatype of data  given below\n");
+		for(int i =0;i<arr2.length;i++){
+			System.out.println(arr2[i]);
+		}
+		System.out.println("long datatype of data  given below\n");
+		for(int i =0;i<arr3.length;i++){
+			System.out.println(arr3[i]);
+		}
+		System.out.println("float datatype of data  given below\n");
+		for(int i =0;i<arr4.length;i++){
+			System.out.println(arr4[i]);
+		}
+		System.out.println("double datatype of data  given below\n");
+		for(int i =0;i<arr5.length;i++){
+			System.out.println(arr5[i]);
+		}
+		System.out.println("char datatype of data  given below\n");
+		for(int i =0;i<arr6.length;i++){
+			System.out.println(arr6[i]);
+		}
+		System.out.println("boolean datatype of data  given below\n");
+		for(int i =0;i<arr7.length;i++){
+			System.out.println(arr7[i]);
+		}
+	}
+}
