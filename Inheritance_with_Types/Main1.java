@@ -1,0 +1,21 @@
+class Sample{
+	int x = 10;
+}
+class Demo extends Sample{
+	void test(){
+	System.out.println("Its a Test...");
+	}
+}
+class Test extends Demo{
+	void poo(){
+	System.out.println("Its POOL Drive");
+	}
+}
+class Main1{
+	public static void main(String[] args){
+	Test t1 = new Test();
+	System.out.println(t1.x);
+	t1.test();
+	t1.poo();
+	}
+}

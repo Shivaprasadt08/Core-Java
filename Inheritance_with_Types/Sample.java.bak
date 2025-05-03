@@ -1,0 +1,15 @@
+class Sample{
+	int y = 10;
+	} 
+	class Tester extends Sample{
+		void cool(){
+		System.out.println("Its so Cool...");
+		}
+	}
+	class Main{
+	public static void main(String[] args){
+	Sample s1 = new Sample();
+	System.out.println(s1.y);
+	s1.cool();
+	}
+}
