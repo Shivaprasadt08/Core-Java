@@ -1,0 +1,19 @@
+class Web{
+ void version(){
+	System.out.println("HTML version 4");
+ }
+ }
+
+ class Web1 extends Web{
+ void version(){
+	System.out.println("HTML version 5");
+ }
+ }
+
+ class Main4
+ {
+	public static void main(String[] args){
+	Web1 w1 = new Web1();
+	w1.version();
+	}
+ }

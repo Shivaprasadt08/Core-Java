@@ -1,0 +1,21 @@
+class Jspider{
+	void attachment()
+	{ 
+	System.out.println("*******Existing feature******"); 
+	System.out.println("Only tell to Do Presentation for revision"); 
+	}
+}
+class Jspider1 extends Jspider{
+void attachment()
+{
+System.out.println("*******Existing feature******"); 
+System.out.println(" Presentation with black and white to do for improvement of the Communication");
+super.attachment(); 
+} 
+}
+class Main3{ 
+public static void main(String[] args)
+{ 
+Jspider1 b1 = new battery1();
+b1.attachment();
+} }
