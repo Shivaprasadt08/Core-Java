@@ -1,0 +1,19 @@
+class Jspider{
+	void student(String name,char sec){
+	System.out.println("Name of the student is" + name + "and section "+ sec);
+	}
+	void student(int rno,char grade){
+	System.out.println("Roll no of the student is" + rno + "and Grade "+ grade);
+	}
+
+	void student(String Address,int pincode){
+	System.out.println("Address of the student is" + Address + "and  pincode"+ pincode);
+	}
+
+	public static void main(String[] args){
+	Jspider j1 = new Jspider();
+	j1.student("Shivaprasad",'B');
+	j1.student(21,'A');
+	j1.student("belagavi",590016);
+	}
+}
