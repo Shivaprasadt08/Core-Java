@@ -1,0 +1,18 @@
+class Ndemo{
+    int a = 100;
+    double circ_Area(){
+    int r = 6;
+    final double pi =3.142 ;
+    double res = pi * r*r;
+	return res;
+	System.out.println(res);
+    }
+
+
+	public static void main(String[] args){
+	System.out.println(new Ndemo().circ_Area());
+	
+
+	}
+}
+
