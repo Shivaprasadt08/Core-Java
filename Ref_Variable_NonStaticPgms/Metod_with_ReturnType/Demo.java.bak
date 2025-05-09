@@ -1,0 +1,12 @@
+class Demo{
+	double sqcArea( ){
+	int r = 8;
+	double res =  r * r;
+	
+	return res;
+	}
+	public static void main(String[] args){
+	Demo d1 = new Demo();
+	d1.circArea();
+	}
+}

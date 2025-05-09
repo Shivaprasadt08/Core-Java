@@ -1,0 +1,48 @@
+class Demo1 {
+    // Area of a square
+    double sqcArea(int side) {
+        return side * side;
+    }
+    
+    // Area of a triangle (0.5 * base * height)
+    double triangleArea(int base, int height) {
+        return 0.5 * base * height;
+    }
+    
+    // Area of a parallelogram (base * height)
+    double parallelogramArea(int base, int height) {
+        return base * height;
+    }
+    
+    // Area of a rectangle (length * breadth)
+    double rectangleArea(int length, int breadth) {
+        return length * breadth;
+    }
+    
+    // Area of a sector (0.5 * r^2 * theta), assuming theta in radians
+    double sectorArea(int r, double theta) {
+        return 0.5 * r * r * theta;
+    }
+    
+    // Area of a trapezoid (0.5 * (base1 + base2) * height)
+    double trapezoidArea(int base1, int base2, int height) {
+        return 0.5 * (base1 + base2) * height;
+    }
+    
+    // Area of an ellipse (pi * a * b)
+    double ellipseArea(int a, int b) {
+        return Math.PI * a * b;
+    }
+    
+    public static void main(String[] args) {
+        Demo1 d1 = new Demo1();
+        
+        System.out.println("Square Area: " + d1.sqcArea(8));
+        System.out.println("Triangle Area: " + d1.triangleArea(10, 5));
+        System.out.println("Parallelogram Area: " + d1.parallelogramArea(12, 6));
+        System.out.println("Rectangle Area: " + d1.rectangleArea(15, 7));
+        System.out.println("Sector Area: " + d1.sectorArea(5, Math.PI / 4));
+        System.out.println("Trapezoid Area: " + d1.trapezoidArea(10, 6, 4));
+        System.out.println("Ellipse Area: " + d1.ellipseArea(7, 5));
+    }
+}
