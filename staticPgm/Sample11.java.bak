@@ -1,0 +1,18 @@
+class Demo
+{
+	static void add(){
+		int a = 10 , b =5;
+		int res = a+ b;
+		System.out.println(res);
+	}
+}
+
+class Sample11
+{
+	public static void main(String[] args) 
+	{
+		 Demo.add();
+		 System.out.println(Demo.a);
+		
+	}
+}

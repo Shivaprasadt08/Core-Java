@@ -1,0 +1,14 @@
+class Demo5{
+	static void trap(int h1, int h2,int b){
+	int res = 0.5 * (b+h1)* h2;
+	System.out.println(res);
+	}
+
+}
+
+class Main5{
+	public static void main(String [] args){
+	System.out.println("The area of the trapezoid is \n");
+	Demo5.trap(8,4,2);
+	}
+}
