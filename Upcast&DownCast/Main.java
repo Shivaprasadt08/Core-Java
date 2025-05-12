@@ -1,0 +1,21 @@
+class Sample{
+	int x = 10;
+}
+
+class Demo extends Sample{
+	void cool(){
+	System.out.println("Hello java");
+	}
+}
+
+class Main{
+public static void main(String[] args){
+	System.out.println("*******Upcasting*******");
+	Sample s1 = new Demo();
+	System.out.println(s1.x);
+	System.out.println("*******Downcasting*******");
+	Demo d1 = (Demo) s1;
+	System.out.println(d1.x);
+	d1.cool();
+}
+}
