@@ -1,0 +1,54 @@
+class AreaOfDimensionWithmethodWithparameters {
+    static void circle_area(int r) {
+        final double pi = 3.142;
+        double res = pi * r * r;
+	System.out.println(res);
+    }
+
+    static int square_area(int length, int width) {
+        int res = length * width;
+		System.out.println(res);
+    }
+
+    static int parallelogram_area(int b, int l) {
+        int res= b * l;
+	System.out.println(res);
+    }
+
+    static double triangle_area(int base, int height) {
+        double res = 0.5 * base * height;
+	System.out.println(res);
+    }
+
+    static double trapezoid_area(int base, int h1, int h2) {
+        double res = 0.5 * (base + h1) * h2;
+	System.out.println(res);
+    }
+
+    static int rectangle_area(int w, int b) {
+        int res = w * b;
+	System.out.println(res);
+    }
+
+    static double ellipse_area(int a, int b) {
+        final double pi = 3.142;
+        double res = pi * a * b;
+	System.out.println(res);
+    }
+
+    static double sector_area(double t, int r) {
+        double res = 0.5 * t * r * r;
+	System.out.println(res);
+    }
+
+    public static void main(String[] args) {
+        System.out.println("The area of circle is " + circle_area(5));
+        System.out.println("The area of square is " + square_area(5, 8));
+        System.out.println("The area of parallelogram is " + parallelogram_area(5, 3));
+        System.out.println("The area of triangle is " + triangle_area(5, 10));
+        System.out.println("The area of trapezoid is " + trapezoid_area(5, 3, 4));
+        System.out.println("The area of rectangle is " + rectangle_area(5, 12));
+        System.out.println("The area of ellipse is " + ellipse_area(5, 12));
+        System.out.println("The area of sector is " + sector_area(50.5, 2));
+    }
+}

@@ -1,0 +1,16 @@
+class Sample5{
+
+	static int emp_id = 12345;
+	static String emp_name = "Shivaprasad K Tigadi";
+	static String Company = "Adode";
+    static double salary = 60000.04;
+
+	public static void main(String[] args){
+		System.out.println("Employeee name is "+emp_name);
+		System.out.println("Employeee Working Comapany is "+Company);
+		System.out.println("Employeee Salary is "+salary);
+		System.out.println("Employeee id is "+emp_id);
+
+	
+	}
+}
